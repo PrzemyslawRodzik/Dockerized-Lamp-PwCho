@@ -3,10 +3,12 @@
 ### Uruchomienie
 
 ```sh
+docker-compose build
 docker-compose up 
 ```
 lub 
 ```sh
+docker-compose build
 docker-compose up -d
 ```
 Ważnym elementem, o którym należało pamiętać było skonfigurowanie serwera Apache, by żądania dotyczące plików php były przekierowywane do serwera php. 
